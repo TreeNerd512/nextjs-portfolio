@@ -16,30 +16,30 @@ export default function Home() {
 						<Link
 							key={item.href}
 							href={item.href}
-							className="text-sm duration-500 text-zinc-500 hover:text-zinc-300"
+							className="text-sm duration-500 text-tangerine-500 hover:text-platinum-300"
 						>
 							{item.name}
 						</Link>
 					))}
 				</ul>
 			</nav>
-			<div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+			<div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-tangerine-300/50 to-tangerine-300/0" />
 			<Particles
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={100}
 			/>
-			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+			<h1 className="z-10 text-4xl text-transparent duration-1000 cursor-default bg-tangerine text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
 				Bonesy Design
 			</h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
-				<h2 className="text-sm text-zinc-500 ">
+				<h2 className="text-sm text-tangerine-500 ">
 					I'm building{" "}
 					<Link
 						target="_blank"
 						href="https://bonesydesign.com"
-						className="underline duration-500 hover:text-zinc-300"
+						className="underline duration-500 hover:text-platinum-300"
 					>
 						Bonesy Design
 					</Link>{" "}

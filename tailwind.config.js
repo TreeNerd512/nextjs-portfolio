@@ -102,6 +102,13 @@ module.exports = {
 					},
 				},
 			},
+			colors: {
+				tangerine: '#FF5B19',
+				charcoal: '#161616',
+				platinum: '#E5E3D2',
+				powderblue: '#AECACD',
+				// ... (add other custom colors if necessary)
+			},
 		},
 	},
 	plugins: [
