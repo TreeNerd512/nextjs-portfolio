@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "bonesydesign.com",
+    template: "%s | bonesydesign.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Founder of bonesydesign.com and Co-founder of Altered Avarice",
   openGraph: {
-    title: "chronark.com",
+    title: "bonesydesign.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "Founder of bonesydesign.com and Co-founder of Altered Avarice",
+    url: "https://bonesydesign.com",
+    siteName: "bonesydesign.com",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://github.com/TreeNerd512/nextjs-portfolio/blob/589bbf1c34255ecbb8316d82f395bf44e7608cfd/public/favicon.png",
         width: 1920,
         height: 1080,
       },
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "B0N3SY.ETH",
     card: "summary_large_image",
   },
   icons: {
