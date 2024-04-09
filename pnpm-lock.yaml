@@ -40,7 +40,7 @@ dependencies:
     version: 1.2.0
   next:
     specifier: ^14.1.4
-    version: 14.1.4(@opentelemetry/api@1.8.0)(react-dom@18.2.0)(react@18.2.0)
+    version: 14.1.4(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
   next-contentlayer:
     specifier: ^0.3.4
     version: 0.3.4(contentlayer@0.3.4)(esbuild@0.20.2)(markdown-wasm@1.2.0)(next@14.1.4)(react-dom@18.2.0)(react@18.2.0)
@@ -71,8 +71,8 @@ dependencies:
 
 devDependencies:
   '@opentelemetry/api':
-    specifier: 1.8.0
-    version: 1.8.0
+    specifier: 1.4.1
+    version: 1.4.1
   '@tailwindcss/line-clamp':
     specifier: ^0.4.4
     version: 0.4.4(tailwindcss@3.4.3)
@@ -659,7 +659,7 @@ packages:
     peerDependencies:
       next: '*'
     dependencies:
-      next: 14.1.4(@opentelemetry/api@1.8.0)(react-dom@18.2.0)(react@18.2.0)
+      next: 14.1.4(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
     dev: false
 
   /@next/mdx@14.1.4:
@@ -784,11 +784,6 @@ packages:
 
   /@opentelemetry/api@1.4.1:
     resolution: {integrity: sha512-O2yRJce1GOc6PAy3QxFM4NzFiWzvScDC1/5ihYBL6BUEVdq0XMWN01sppE+H6bBXbaFYipjwFLEWLg5PaSOThA==}
-    engines: {node: '>=8.0.0'}
-    dev: false
-
-  /@opentelemetry/api@1.8.0:
-    resolution: {integrity: sha512-I/s6F7yKUDdtMsoBWXJe8Qz40Tui5vsuKCWJEWVL+5q9sSWRzzx6v2KeNsOBEwd94j0eWkpWCH4yB6rZg9Mf0w==}
     engines: {node: '>=8.0.0'}
 
   /@opentelemetry/context-async-hooks@1.13.0(@opentelemetry/api@1.4.1):
@@ -3024,7 +3019,7 @@ packages:
       '@contentlayer/core': 0.3.4(esbuild@0.20.2)(markdown-wasm@1.2.0)
       '@contentlayer/utils': 0.3.4
       contentlayer: 0.3.4(esbuild@0.20.2)(markdown-wasm@1.2.0)
-      next: 14.1.4(@opentelemetry/api@1.8.0)(react-dom@18.2.0)(react@18.2.0)
+      next: 14.1.4(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
@@ -3034,7 +3029,7 @@ packages:
       - supports-color
     dev: false
 
-  /next@14.1.4(@opentelemetry/api@1.8.0)(react-dom@18.2.0)(react@18.2.0):
+  /next@14.1.4(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-1WTaXeSrUwlz/XcnhGTY7+8eiaFvdet5z9u3V2jb+Ek1vFo0VhHKSAIJvDWfQpttWjnyw14kBeq28TPq7bTeEQ==}
     engines: {node: '>=18.17.0'}
     hasBin: true
@@ -3050,7 +3045,7 @@ packages:
         optional: true
     dependencies:
       '@next/env': 14.1.4
-      '@opentelemetry/api': 1.8.0
+      '@opentelemetry/api': 1.4.1
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
       caniuse-lite: 1.0.30001607
